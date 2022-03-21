@@ -67,7 +67,7 @@ module.exports = {
             filename: './index.html'
         }),
         new miniCssExtractPlugin({
-            filename: 'assets/[name].[contenthash]'
+            filename: 'assets/[name].[contenthash].css'
         }),
         new copyPlugin({
             patterns:[
